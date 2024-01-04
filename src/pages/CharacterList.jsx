@@ -1,5 +1,6 @@
-import { gql, useQuery } from "@apollo/client";
-import React from "react";
+import React from 'react';
+import { gql, useQuery } from '@apollo/client';
+import './CharacterList.css';
 
 const GET_CHARACTERS = gql`
   query {

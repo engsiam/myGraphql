@@ -1,5 +1,6 @@
-.CharacterList{
+.CharacterList {
     display: flex;
-    flex-direction: wrap;
+    flex-wrap: wrap;
+    /* margin: 0 auto; */
     justify-content: space-evenly;
 }
