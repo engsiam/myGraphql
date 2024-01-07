@@ -1,5 +1,8 @@
 .Character {
   display: flex;
+  margin: 0 auto;
+  padding-top: 5em;
+  width: 50em;
 }
 
 .Character-content {
