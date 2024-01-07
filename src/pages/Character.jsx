@@ -3,6 +3,7 @@ import useCharacter from '../hooks/useCharacter'
 import './Character.css'
 import {useParams} from "react-router";
 
+
 export default function Character() {
   const {id} = useParams();
   const { loading, data, error } = useCharacter(id)
@@ -12,7 +13,7 @@ export default function Character() {
       <div>
         <img
           className="loadingimg"
-          src="src/assets/loading.gif"
+          src="/src/assets/loading.gif"
           alt="loading"
         />
       </div>
