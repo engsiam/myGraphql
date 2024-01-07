@@ -21,9 +21,9 @@ const useCharacter = (id) => {
     },
   })
   return {
+    loading,
     data,
     error,
-    loading,
   }
 }
 
